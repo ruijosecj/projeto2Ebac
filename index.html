@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./images/simbolo-telefone.jpg" alt="">
+        <h1>Agenda de Contatos</h1>
+    </header>
+    <div class="container">
+
+        <form id="form-contato">
+            <input required id="nome-contato" type="text" placeholder="Digite o nome">
+            <input required id="numero-contato" type="tel" placeholder="Digite o número">
+            <button type="submit" value="">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rui Jose</td>
+                    <td> 85 985364282</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
