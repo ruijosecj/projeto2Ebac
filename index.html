@@ -18,8 +18,8 @@
     <div class="container">
 
         <form id="form-contato">
-            <input required id="nome-contato" type="text" placeholder="Digite o nome">
-            <input required id="numero-contato" type="tel" placeholder="Digite o número">
+            <input required id="inputNome" type="text" placeholder="Digite o nome">
+            <input required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" id="inputFone" type="tel" placeholder="85 98888-7777">
             <button type="submit" value="">Adicionar</button>
         </form>
         <table cellspacing="0">
@@ -30,10 +30,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Rui Jose</td>
-                    <td> 85 985364282</td>
-                </tr>
+                
             </tbody>
         </table>
     </div>
